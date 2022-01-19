@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.color-blue{
+    color: blue;
+}
+.color-green{
+    color: green;
+}
+.color-red{
+    color: red;
+}
+section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.half-width{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(green, red);
+    border-radius: 5px;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#body-title{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.tourist-destination{
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+.tourist-destination img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.footer{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: linear-gradient(to right, red , green);
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 17px;
+    border-radius: 10px;
+}
+.footer h1{
+    text-align: center;
+    color: whitesmoke;
+}
